@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b19a7c7976.js" crossorigin="anonymous"></script>
+    <title>StockTutor</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function () {
+                    const answer = this.nextElementSibling;
+
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                    } else {
+                        answer.style.display = 'block';
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" style="height: 40px;">
+        </div>
+        <div class="links">
+            <ul class="links-bar">
+                <a href="#">
+                    <li>Courses</li>
+                </a>
+                <a href="#">
+                    <li>Master CLass</li>
+                </a>
+                <a href="#">
+                    <li>Virtual Trading</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+            </ul>
+        </div>
+        <div class="join-login">
+            <input type="button" value="Join Us" class="join">
+            <input type="button" value="Login" class="login">
+        </div>
+    </div>
+    <div class="home">
+        <img src="home.png" alt="" srcset="" style="width:100%">
+    </div>
+    <div class="course-section">
+        <h1>Our Courses</h1>
+        <div class="courses">
+            <div class="main-course">
+                <img src="mam.webp" style="height: 224px; width: 400px; border-radius: 20px;">
+                <div class="main-course-content">
+                    <h2>Basics of Forex</h2>
+                    <p>Gain a solid foundation in stock market knowledge. This includes understanding stocks.</p>
+                    <div class="course-details">
+                        <div class="course-bottom">
+                            <div class="course-time">
+                                <i class="fa-regular fa-clock fa-sm"></i>
+                                <p>12hr 40min</p>
+                            </div>
+                            <div class="course-time">
+                                <i class="fa-regular fa-clock fa-sm"></i>
+                                <p>12hr 40min</p>
+                            </div>
+                        </div>
+                        <input type="button" value="Get Started" class="getstarted">
+                    </div>
+                </div>
+            </div>
+            <div class="side-course">
+                <div class="second-course">
+                    <img src="mam.webp" style="height: 160px; width: 200px; border-radius: 20px;">
+                    <div class="main-course-content">
+                        <h2>Basics of Forex</h2>
+                        <p>Gain a solid foundation in stock market knowledge. This includes understanding stocks.</p>
+                        <div class="course-details">
+                            <div class="course-bottom">
+                                <div class="course-time">
+                                    <i class="fa-regular fa-clock fa-sm"></i>
+                                    <p>12hr 40min</p>
+                                </div>
+                                <div class="course-time">
+                                    <i class="fa-regular fa-clock fa-sm"></i>
+                                    <p>12hr 40min</p>
+                                </div>
+                            </div>
+                            <input type="button" value="Get Started" class="getstarted">
+                        </div>
+                    </div>
+                </div>
+                <div class="second-course">
+                    <img src="mam.webp" style="height: 160px; width: 200px; border-radius: 20px;">
+                    <div class="main-course-content">
+                        <h2>Basics of Forex</h2>
+                        <p>Gain a solid foundation in stock market knowledge. This includes understanding stocks.</p>
+                        <div class="course-details">
+                            <div class="course-bottom">
+                                <div class="course-time">
+                                    <i class="fa-regular fa-clock fa-sm"></i>
+                                    <p>12hr 40min</p>
+                                </div>
+                                <div class="course-time">
+                                    <i class="fa-regular fa-clock fa-sm"></i>
+                                    <p>12hr 40min</p>
+                                </div>
+                            </div>
+                            <input type="button" value="Get Started" class="getstarted">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="whatweoffer">
+        <h1>What We Offer</h1>
+        <div class="row1">
+            <div class="offer1">
+                <img src="1.png">
+                <p>Cutting-Edge Expert Courses</p>
+            </div>
+            <div class="offer2">
+                <img src="2.png">
+                <p>Practical Learning Methods</p>
+            </div>
+            <div class="offer3">
+                <img src="3.png">
+                <p>Doubt Solving Sessions</p>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="offer4">
+                <img src="4.png">
+                <p>Market Insights</p>
+            </div>
+            <div class="offer5">
+                <img src="5.png">
+                <p>Placement Assistance</p>
+            </div>
+            <div class="offer6">
+                <img src="6.png">
+                <p>Virtual Trading Environment</p>
+            </div>
+        </div>
+    </div>
+    <div class="testimon">
+        <h1>Our Testimonials</h1>
+        <div class="our-testimonial">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="518" viewBox="0 0 1440 518" fill="none">
+                <path d="M1440 0L0 99.4675V518L1440 403.842V0Z" fill="black" />
+            </svg>
+            <div class="testimonial">
+                <img src="image.JPG" style="width: 200px; height: 200px; border-radius: 100%;">
+                <div class="testimonial-detail">
+                    <h2 style="padding-bottom: 40px;">Ashish Aggarwal</h2>
+                    <p style="width: 500px;">Life-changing stock market course with practical learning and excellent
+                        career support. Highly recommended for aspiring traders! Super happy!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="presence">
+        <h1>Our Presence</h1>
+        <div class="countries">
+            <div class="india">
+                <img src="india.png">
+                <h2>INDIA</h2>
+            </div>
+            <div class="india">
+                <img src="usa.png">
+                <h2>USA</h2>
+            </div>
+            <div class="india">
+                <img src="uae.png">
+                <h2>UAE</h2>
+            </div>
+        </div>
+    </div>
+    <div class="faq-section">
+        <h1>FAQs</h1>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">1. Can beginners take the course</div>
+                <div class="faq-answer">Yes, our course is suitable for beginners. We provide comprehensive training
+                    from the basics, making it accessible for those with little to no prior knowledge of the stock
+                    market.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">2. What is the duration of the course?</div>
+                <div class="faq-answer">The course is designed to be completed in 3 months, ensuring that you gain a
+                    solid understanding of stock market fundamentals within a reasonable timeframe.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">3. Will you help with placement after the course?</div>
+                <div class="faq-answer">Yes, we offer placement assistance to guide you in finding job opportunities in
+                    the financial industry, leveraging our network and industry connections.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">4. Will we get a chance to do virtual trading during the course?</div>
+                <div class="faq-answer">Absolutely, virtual trading is an integral part of our curriculum. You will have
+                    the opportunity to practice trading in a simulated environment to apply what youve learned.</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="logo-para">
+            <img src="logo.png" style="height: 40px;">
+            <p style="width: 300px; font-size: 14px;color: #b4b4b4;">
+                Step into the world of StockTutor, where we invite you to explore the complexities of the stock market
+                and take charge of your financial journey. Our core belief at StockTutor is that financial knowledge
+                should be accessible to everyone. We are dedicated to equipping individuals with the insights necessary
+                to make informed investment choices, ensuring a secure financial future.
+            </p>
+        </div>
+        <div class="quick-links">
+            <ul>
+                <li style="font-size: 20px; font-weight: 600;">Quick Links</li>
+                <li>About Us</li>
+                <li>News & Blogs</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="privacy-links">
+            <ul>
+                <li style="font-size: 20px; font-weight: 600;">Policy</li>
+                <li>Terms & Conditions</li>
+                <li>Return & Refund</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="app">
+            <h2 style="font-size: 20px; font-weight: 600;color: #b4b4b4;">Install App</h2>
+            <img src="play.png" width="160px" height="50px">
+            <img src="app.png"  width="160px" height="50px">
+        </div>
+    </div>
+</body>
+
+</html>

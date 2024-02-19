@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    background-color: black;
+    padding: 12px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    gap: 20px;
+}
+.links-bar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.join-login{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.join{
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #1C5CD9;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+}
+.login{
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #1C5CD9;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+}
+.course-section{
+    padding-top: 32px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+   
+}
+h1{
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 32px;
+    width: fit-content;
+}
+h2{
+    font-size:24px;
+    font-weight: 600;
+    width: fit-content;
+}
+.main-course-content{
+    width: 350px;
+}
+.course-time{
+    display: flex;
+    align-items:center;
+}
+.course-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 20px;
+
+}
+.getstarted{
+    width: 120px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    background-color: #1C5CD9;
+    color: aliceblue;
+}
+.second-course{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+.courses{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+p{
+    font-size: 16px;
+}
+
+.whatweoffer{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row1 ,.row2{
+    padding-bottom: 40px;
+    gap: 160px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.offer1, .offer2, .offer3, .offer4, .offer5, .offer6{
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.testimon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+}
+.our-testimonial{
+    position: relative;
+}
+.testimonial{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 170px;
+    left: 150px;
+    color: white;
+}
+.presence{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.countries img{
+    width: 240px;
+    height: 160px;
+}
+.countries h2{
+    font-size: 20px;
+}
+.countries{
+    padding-top: 32px;
+    display: flex;
+    gap: 160px;
+
+}
+.countries .india{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.faq-section{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.faq-container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.faq-item {
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #b9b9b9;
+}
+
+.faq-question {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.faq-answer {
+    padding: 10px;
+    display: none;
+}
+.faq-question{
+    font-weight: 600;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}
+.footer li{
+    list-style: none;
+    color: #b4b4b4; 
+}
+.footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;
+    background-color: black;
+    padding-right: 40px;
+}
