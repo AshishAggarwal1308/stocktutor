@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b19a7c7976.js" crossorigin="anonymous"></script>
+    <title>StockTutor</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function () {
+                    const answer = this.nextElementSibling;
+
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                    } else {
+                        answer.style.display = 'block';
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" style="height: 40px;"></a>
+        </div>
+        <div class="links">
+            <ul class="links-bar">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="courses.html">
+                    <li>Courses</li>
+                </a>
+                <a href="about.html">
+                    <li>About Us</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+        </div>
+        <div class="join-login">
+            <input type="button" value="Join Us" class="join">
+            <input type="button" value="Login" class="login">
+        </div>
+    </div>
+    <div class="about-us">
+        <div class="about-content">
+            <p style="color: #a1a1a1;">Welcome to StockTutor</p>
+            <h1 style="width: 460px; font-weight: 600; padding-bottom: 10px;">Where passion meets <span
+                    style="color: #1C5CD9;">purpose</span>, and every chapter unfolds with a <span
+                    style="color: #1C5CD9;">commitment to innovation !</span></h1>
+            <p style="width: 460px; color: #a1a1a1;">Our core belief at StockTutor is that financial knowledge should be accessible to
+                everyone. We are dedicated to equipping individuals with the insights necessary to make informed
+                investment choices, ensuring a secure financial future. As a prominent player in educational technology,
+                our mission is to connect eager learners, whether they are students or seasoned professionals, with
+                experienced trading professionals.</p>
+        </div>
+        <img src="tutors2.png" style="width: 600px; height: auto; border-radius: 20px;">
+    </div>
+    <div class="presence">
+        <div class="heading-head" style="padding-top: 0%; margin-top: 0%;">
+            <h1>Our Presence</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="191" height="17" viewBox="0 0 191 17" fill="none">
+                <path d="M1 16C122.053 -6.63752 204.14 -1.17697 187.97 16" stroke="#1C5CD9" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+        </div>
+        <div class="countries">
+            <div class="india">
+                <img src="india.png">
+                <h2>INDIA</h2>
+            </div>
+            <div class="india">
+                <img src="usa.png">
+                <h2>USA</h2>
+            </div>
+            <div class="india">
+                <img src="uae.png">
+                <h2>UAE</h2>
+            </div>
+        </div>
+    </div>
+    <div class="mission-vision">
+        
+    </div>
+    <div class="footer">
+        <div class="logo-para">
+            <a href="index.html"><img src="logo.png" style="height: 40px;"></a>
+            <p style="width: 300px; font-size: 14px;color: #b4b4b4;">
+                Step into the world of StockTutor, where we invite you to explore the complexities of the stock market
+                and take charge of your financial journey. Our core belief at StockTutor is that financial knowledge
+                should be accessible to everyone. We are dedicated to equipping individuals with the insights necessary
+                to make informed investment choices, ensuring a secure financial future.
+            </p>
+        </div>
+        <div class="quick-links">
+            <ul>
+                <li style="font-size: 20px; font-weight: 600;">Quick Links</li>
+                <li>About Us</li>
+                <li>News & Blogs</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="privacy-links">
+            <ul>
+                <li style="font-size: 20px; font-weight: 600;">Policy</li>
+                <li>Terms & Conditions</li>
+                <li>Return & Refund</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="app">
+            <h2 style="font-size: 20px; font-weight: 600;color: #b4b4b4;">Install App</h2>
+            <img src="play.png" width="160px" height="50px">
+            <img src="app.png" width="160px" height="50px">
+        </div>
+    </div>
+    <div class="social-links">
+        <div style="width: 120px;"></div>
+        <p style="color: #b4b4b4;">Powered by Ashish Aggarwal <span style="color: #b4b4b4;">©</span> All Rigth Reserved
+        </p>
+        <div class="socials">
+            <ul>
+                <a href="https://wa.me/8527332806" target="_blank">
+                    <li><i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #b4b4b4;"></i></li>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61552036775314&mibextid=ZbWKwL" target="_blank">
+                    <li><i class="fa-brands fa-square-facebook fa-2xl" style="color: #b4b4b4;"></i></li>
+                </a>
+                <a href="https://www.instagram.com/stocktutorofficial/" target="_blank">
+                    <li><i class="fa-brands fa-square-x-twitter fa-2xl" style="color: #b4b4b4;"></i></li>
+                </a>
+                <a href="https://www.instagram.com/stocktutorofficial/" target="_blank">
+                    <li><i class="fa-brands fa-square-instagram fa-2xl" style="color: #b4b4b4;"></i></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

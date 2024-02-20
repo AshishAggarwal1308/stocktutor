@@ -3,6 +3,36 @@
     padding: 0%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* .smoke-cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: transparent;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    transform-origin: center;
+    animation: smoke 1s;
+  }
+  
+  @keyframes smoke {
+    0% {
+      transform: scale(1) translate(0, 0);
+      opacity: 1;
+      background-color: #b9bbd5;
+    }
+    50% {
+      transform: scale(2) translate(20px, 20px);
+      opacity: 2;
+      background-color: #a0c1bf;
+    }
+    100% {
+      transform: scale(1) translate(0, 0);
+      opacity: 1;
+      background-color: #dbc5e8;
+    }
+  } */
 .navbar{
     background-color: black;
     padding: 12px 24px;
@@ -15,12 +45,12 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    color: aliceblue;
-    gap: 20px;
+    color: rgb(255, 255, 255);
+    gap:28px;
 }
 .links-bar a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 .join-login{
     display: flex;
@@ -60,7 +90,6 @@
 h1{
     font-size: 32px;
     font-weight: 600;
-    padding-bottom: 32px;
     width: fit-content;
 }
 h2{
@@ -68,12 +97,22 @@ h2{
     font-weight: 600;
     width: fit-content;
 }
+.heading-head{
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-bottom: 40px;
+}
 .main-course-content{
     width: 350px;
+    padding: 0px 10px 10px 10px;
 }
 .course-time{
     display: flex;
+    flex-direction: row;
     align-items:center;
+    justify-content: center;
 }
 .course-details{
     display: flex;
@@ -102,6 +141,8 @@ h2{
     display: flex;
     flex-direction: row;
     gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
 }
 p{
     font-size: 16px;
@@ -139,11 +180,11 @@ p{
 }
 .testimonial{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     width: 1000px;
     justify-content: space-evenly;
     position: absolute;
-    top: 170px;
+    top: 150px;
     left: 150px;
     color: white;
 }
@@ -152,6 +193,7 @@ p{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 .countries img{
     width: 240px;
@@ -161,7 +203,7 @@ p{
     font-size: 20px;
 }
 .countries{
-    padding-top: 32px;
+    padding-top: 20px;
     display: flex;
     gap: 160px;
 
@@ -220,4 +262,85 @@ p{
     padding-left: 40px;
     background-color: black;
     padding-right: 40px;
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.2px solid #b4b4b4;
+    padding: 20px;
+    background-color: black;
+}
+.socials ul{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.socials ul li{
+    list-style: none;
+}
+.courses-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: px;
+}
+.main-course1,.second-course{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.course-section2{
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us{
+    background-image: url("aboutbackgroud.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.improve{
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#user-work{
+    background-color: #050845;
+    padding: 24px;
+    border-radius: 8px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.cars-works{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='902' height='60' viewBox='2 5 902 25' fill='none'%3E%3Cpath d='M1 17.0037C243.736 -35.3377 623.297 61.3242 901 17.0037' stroke='%23D5D5D5' stroke-width='2' stroke-linecap='round' stroke-dasharray='8 8'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-position-x: center;
+
 }

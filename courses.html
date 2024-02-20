@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>StockTutor</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function () {
+                    const answer = this.nextElementSibling;
+
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                    } else {
+                        answer.style.display = 'block';
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/b19a7c7976.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" style="height: 40px;"></a>
+        </div>
+        <div class="links">
+            <ul class="links-bar">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="courses.html">
+                    <li>Courses</li>
+                </a>
+                <a href="about.html">
+                    <li>About Us</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+        </div>
+        <div class="join-login">
+            <input type="button" value="Join Us" class="join">
+            <input type="button" value="Login" class="login">
+        </div>
+    </div>
+    <div class="home">
+        <img src="tutors.png" alt="" srcset="" style="width:100%">
+    </div>
+    <div class="course-section2">
+        <div class="heading-head">
+            <h1>Our Courses</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="191" height="17" viewBox="0 0 191 17" fill="none">
+                <path d="M1 16C122.053 -6.63752 204.14 -1.17697 187.97 16" stroke="#1C5CD9" stroke-width="2"
+                    stroke-linecap="round" />
+            </svg>
+        </div>
+        <div class="courses-page">
+            <div class="main-course1">
+                <img src="mam.webp" style="height: 224px; width: 400px; border-radius: 20px;">
+                <div class="main-course-content">
+                    <h2>Basics of Forex</h2>
+                    <p>Gain a solid foundation in stock market knowledge. This includes understanding stocks.</p>
+                    <div class="course-details">
+                        <div class="course-bottom">
+                            <div class="course-time">
+                                <i class="fa-regular fa-clock fa-sm"></i>
+                                <p>12hr 40min</p>
+                            </div>
+                            <div class="course-time">
+                                <i class="fa-regular fa-book fa-sm"></i>
+                                <p>12 modules</p>
+                            </div>
+                        </div>
+                        <input type="button" value="Get Started" class="getstarted">
+                    </div>
+                </div>
+            </div>
+            <div class="main-course1">
+                <img src="mam.webp" style="height: 224px; width: 400px; border-radius: 20px;">
+                <div class="main-course-content">
+                    <h2>Basics of Forex</h2>
+                    <p>Gain a solid foundation in stock market knowledge. This includes understanding stocks.</p>
+                    <div class="course-details">
+                        <div class="course-bottom">
+                            <div class="course-time">
+                                <i class="fa-regular fa-clock fa-sm"></i>
+                                <p>12hr 40min</p>
+                            </div>
+                            <div class="course-time">
+                                <i class="fa-regular fa-book fa-sm"></i>
+                                <p>12 modules</p>
+                            </div>
+                        </div>
+                        <input type="button" value="Get Started" class="getstarted">
+                    </div>
+                </div>
+            </div>
+            <div class="main-course1">
+                <img src="mam.webp" style="height: 224px; width: 400px; border-radius: 20px;">
+                <div class="main-course-content">
+                    <h2>Basics of Forex</h2>
+                    <p>Gain a solid foundation in stock market knowledge. This includes understanding stocks.</p>
+                    <div class="course-details">
+                        <div class="course-bottom">
+                            <div class="course-time">
+                                <i class="fa-regular fa-clock fa-sm"></i>
+                                <p>12hr 40min</p>
+                            </div>
+                            <div class="course-time">
+                                <i class="fa-regular fa-book fa-sm"></i>
+                                <p>12 modules</p>
+                            </div>
+                        </div>
+                        <input type="button" value="Get Started" class="getstarted">
+                    </div>
+                </div>
+            </div>
+            <div class="main-course1">
+                <img src="mam.webp" style="height: 224px; width: 400px; border-radius: 20px;">
+                <div class="main-course-content">
+                    <h2>Basics of Forex</h2>
+                    <p>Gain a solid foundation in stock market knowledge. This includes understanding stocks.</p>
+                    <div class="course-details">
+                        <div class="course-bottom">
+                            <div class="course-time">
+                                <i class="fa-regular fa-clock fa-sm"></i>
+                                <p>12hr 40min</p>
+                            </div>
+                            <div class="course-time">
+                                <i class="fa-regular fa-book fa-sm"></i>
+                                <p>12 modules</p>
+                            </div>
+                        </div>
+                        <input type="button" value="Get Started" class="getstarted">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="improve">
+            <div class="heading-head">
+                <h1>How it Works</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="215" height="17" viewBox="0 0 215 17" fill="none">
+                    <path d="M1 16C137.425 -6.63752 229.936 -1.17697 211.712 16" stroke="#1C5CD9" stroke-width="2"
+                        stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="cars-works" style="margin-top: 50px; margin-bottom: 50px;">
+                <div class="card1">
+                    <i class="fa-solid fa-user fa-xl" id="user-work" style="color: #ffffff;"></i>
+                    <h4 style="font-weight: 600;;">Sign In</h4>
+                    <p style="width: 180px;text-align: center; color: #909090;">Sign in to our website and experience
+                        seamless content</p>
+                </div>
+                <div class="card1">
+                    <i class="fa-solid fa-hand-point-up fa-xl" id="user-work" style="color: #ffffff;"></i>
+                    <h4 style="font-weight: 600;;">Choose</h4>
+                    <p style="width: 180px;text-align: center; color: #909090;">Embark on a journey of academic
+                        fulfillment as you choose your course</p>
+                </div>
+                <div class="card1">
+                    <i class="fa-solid fa-credit-card fa-xl" id="user-work" style="color: #ffffff;"></i>
+                    <h4 style="font-weight: 600;;">Pay</h4>
+                    <p style="width: 180px;text-align: center; color: #909090;">Invest in your future success by
+                        unlocking a world of knowledge</p>
+                </div>
+                <div class="card1">
+                    <i class="fa-solid fa-face-grin fa-xl" id="user-work" style="color: #ffffff;"></i>
+                    <h4 style="font-weight: 600;;">Enjoy</h4>
+                    <p style="width: 180px;text-align: center; color: #909090;">Dive into your course where learning
+                        meets enjoyment</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimon">
+            <div class="heading-head" style="padding-bottom: 0%; margin-top: 0%;">
+                <h1>Testimonials</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="191" height="17" viewBox="0 0 191 17" fill="none">
+                    <path d="M1 16C122.053 -6.63752 204.14 -1.17697 187.97 16" stroke="#1C5CD9" stroke-width="2"
+                        stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="our-testimonial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="518" viewBox="0 0 1440 518" fill="none">
+                    <path d="M1440 0L0 99.4675V518L1440 403.842V0Z" fill="black" />
+                </svg>
+                <div class="testimonial">
+                    <img src="image.JPG" style="width: 250px; height: 250px; border-radius: 100%;">
+                    <div class="testimonial-detail">
+                        <h2>Jennifer</h2>
+                        <h4 style="padding-bottom: 10px; font-weight: 500; color: #b1b1b1;">Forex Trader</h2>
+                            <p style="width: 500px;">I can confidently say that enrolling in StockTutor's forex course
+                                has been a game-changer for me. The comprehensive curriculum, expertly crafted by
+                                seasoned professionals, not only demystified the complexities of the forex market but
+                                also equipped me with invaluable skills and strategies. The course seamlessly blends
+                                theory with practical insights, making learning both engaging and effective. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="faq-section" style="padding-top: 0%; margin-top: 0%;">
+        <div class="heading-head" style="padding-top: 0%;">
+            <h1>FAQs</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="92" height="13" viewBox="0 0 92 13" fill="none">
+                <path d="M1 12C58.6445 -4.60085 97.7334 -0.596447 90.0332 12" stroke="#1C5CD9" stroke-width="2"
+                    stroke-linecap="round" />
+            </svg>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">1. Can beginners take the course</div>
+                <div class="faq-answer">Yes, our course is suitable for beginners. We provide comprehensive training
+                    from the basics, making it accessible for those with little to no prior knowledge of the stock
+                    market.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">2. What is the duration of the course?</div>
+                <div class="faq-answer">The course is designed to be completed in 3 months, ensuring that you gain a
+                    solid understanding of stock market fundamentals within a reasonable timeframe.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">3. Will you help with placement after the course?</div>
+                <div class="faq-answer">Yes, we offer placement assistance to guide you in finding job opportunities in
+                    the financial industry, leveraging our network and industry connections.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">4. Will we get a chance to do virtual trading during the course?</div>
+                <div class="faq-answer">Absolutely, virtual trading is an integral part of our curriculum. You will have
+                    the opportunity to practice trading in a simulated environment to apply what youve learned.</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="logo-para">
+            <a href="index.html"><img src="logo.png" style="height: 40px;"></a>
+            <p style="width: 300px; font-size: 14px;color: #b4b4b4;">
+                Step into the world of StockTutor, where we invite you to explore the complexities of the stock market
+                and take charge of your financial journey. Our core belief at StockTutor is that financial knowledge
+                should be accessible to everyone. We are dedicated to equipping individuals with the insights necessary
+                to make informed investment choices, ensuring a secure financial future.
+            </p>
+        </div>
+        <div class="quick-links">
+            <ul>
+                <li style="font-size: 20px; font-weight: 600;">Quick Links</li>
+                <li>About Us</li>
+                <li>News & Blogs</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="privacy-links">
+            <ul>
+                <li style="font-size: 20px; font-weight: 600;">Policy</li>
+                <li>Terms & Conditions</li>
+                <li>Return & Refund</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="app">
+            <h2 style="font-size: 20px; font-weight: 600;color: #b4b4b4;">Install App</h2>
+            <img src="play.png" width="160px" height="50px">
+            <img src="app.png" width="160px" height="50px">
+        </div>
+    </div>
+    <div class="social-links">
+        <div style="width: 120px;"></div>
+        <p style="color: #b4b4b4;">Powered by Ashish Aggarwal <span style="color: #b4b4b4;">©</span> All Rigth Reserved
+        </p>
+        <div class="socials">
+            <ul>
+                <a href="https://wa.me/8527332806" target="_blank">
+                    <li><i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #b4b4b4;"></i></li>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61552036775314&mibextid=ZbWKwL" target="_blank">
+                    <li><i class="fa-brands fa-square-facebook fa-2xl" style="color: #b4b4b4;"></i></li>
+                </a>
+                <a href="https://www.instagram.com/stocktutorofficial/" target="_blank">
+                    <li><i class="fa-brands fa-square-x-twitter fa-2xl" style="color: #b4b4b4;"></i></li>
+                </a>
+                <a href="https://www.instagram.com/stocktutorofficial/" target="_blank">
+                    <li><i class="fa-brands fa-square-instagram fa-2xl" style="color: #b4b4b4;"></i></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

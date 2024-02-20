@@ -1,48 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/b19a7c7976.js" crossorigin="anonymous"></script>
     <title>StockTutor</title>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const faqQuestions = document.querySelectorAll('.faq-question');
-            faqQuestions.forEach(question => {
-                question.addEventListener('click', function () {
-                    const answer = this.nextElementSibling;
-
-                    if (answer.style.display === 'block') {
-                        answer.style.display = 'none';
-                    } else {
-                        answer.style.display = 'block';
-                    }
-                });
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </head>
-
 <body>
     <div class="navbar">
         <div class="logo">
-            <img src="logo.png" style="height: 40px;">
+            <a href="index.html"><img src="logo.png" style="height: 40px;"></a>
         </div>
         <div class="links">
             <ul class="links-bar">
-                <a href="#">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="courses.html">
                     <li>Courses</li>
                 </a>
-                <a href="#">
-                    <li>Master CLass</li>
+                <a href="about.html">
+                    <li>About Us</li>
                 </a>
-                <a href="#">
-                    <li>Virtual Trading</li>
-                </a>
-                <a href="#">
-                    <li>About</li>
+                <a href="contact.html">
+                    <li>Contact Us</li>
                 </a>
             </ul>
         </div>
@@ -55,9 +38,14 @@
         <img src="home.png" alt="" srcset="" style="width:100%">
     </div>
     <div class="course-section">
-        <h1>Our Courses</h1>
+        <div class="heading-head">
+            <h1>Our Courses</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="191" height="17" viewBox="0 0 191 17" fill="none">
+                <path d="M1 16C122.053 -6.63752 204.14 -1.17697 187.97 16" stroke="#1C5CD9" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+        </div>
         <div class="courses">
-            <div class="main-course">
+            <div class="main-course1">
                 <img src="mam.webp" style="height: 224px; width: 400px; border-radius: 20px;">
                 <div class="main-course-content">
                     <h2>Basics of Forex</h2>
@@ -69,8 +57,8 @@
                                 <p>12hr 40min</p>
                             </div>
                             <div class="course-time">
-                                <i class="fa-regular fa-clock fa-sm"></i>
-                                <p>12hr 40min</p>
+                                <i class="fa-regular fa-book fa-sm"></i> 
+                                <p>12 modules</p>
                             </div>
                         </div>
                         <input type="button" value="Get Started" class="getstarted">
@@ -79,7 +67,7 @@
             </div>
             <div class="side-course">
                 <div class="second-course">
-                    <img src="mam.webp" style="height: 160px; width: 200px; border-radius: 20px;">
+                    <img src="mam.webp" style="height: 160px; width: 240px; border-radius: 20px;">
                     <div class="main-course-content">
                         <h2>Basics of Forex</h2>
                         <p>Gain a solid foundation in stock market knowledge. This includes understanding stocks.</p>
@@ -90,8 +78,8 @@
                                     <p>12hr 40min</p>
                                 </div>
                                 <div class="course-time">
-                                    <i class="fa-regular fa-clock fa-sm"></i>
-                                    <p>12hr 40min</p>
+                                    <i class="fa-regular fa-book fa-sm"></i> 
+                                    <p>12 modules</p>
                                 </div>
                             </div>
                             <input type="button" value="Get Started" class="getstarted">
@@ -99,7 +87,7 @@
                     </div>
                 </div>
                 <div class="second-course">
-                    <img src="mam.webp" style="height: 160px; width: 200px; border-radius: 20px;">
+                    <img src="mam.webp" style="height: 160px; width: 240px; border-radius: 20px;">
                     <div class="main-course-content">
                         <h2>Basics of Forex</h2>
                         <p>Gain a solid foundation in stock market knowledge. This includes understanding stocks.</p>
@@ -110,8 +98,8 @@
                                     <p>12hr 40min</p>
                                 </div>
                                 <div class="course-time">
-                                    <i class="fa-regular fa-clock fa-sm"></i>
-                                    <p>12hr 40min</p>
+                                    <i class="fa-regular fa-book fa-sm"></i> 
+                                    <p>12 modules</p>
                                 </div>
                             </div>
                             <input type="button" value="Get Started" class="getstarted">
@@ -122,7 +110,12 @@
         </div>
     </div>
     <div class="whatweoffer">
-        <h1>What We Offer</h1>
+        <div class="heading-head">
+            <h1>What We Offer</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="215" height="17" viewBox="0 0 215 17" fill="none">
+                <path d="M1 16C137.425 -6.63752 229.936 -1.17697 211.712 16" stroke="#1C5CD9" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+        </div>
         <div class="row1">
             <div class="offer1">
                 <img src="1.png">
@@ -153,40 +146,39 @@
         </div>
     </div>
     <div class="testimon">
-        <h1>Our Testimonials</h1>
+        <div class="heading-head" style="padding-bottom: 0%; margin-top: 0%;">
+            <h1>Testimonials</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="191" height="17" viewBox="0 0 191 17" fill="none">
+                <path d="M1 16C122.053 -6.63752 204.14 -1.17697 187.97 16" stroke="#1C5CD9" stroke-width="2"
+                    stroke-linecap="round" />
+            </svg>
+        </div>
         <div class="our-testimonial">
             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="518" viewBox="0 0 1440 518" fill="none">
                 <path d="M1440 0L0 99.4675V518L1440 403.842V0Z" fill="black" />
             </svg>
             <div class="testimonial">
-                <img src="image.JPG" style="width: 200px; height: 200px; border-radius: 100%;">
+                <img src="image.JPG" style="width: 250px; height: 250px; border-radius: 100%;">
                 <div class="testimonial-detail">
-                    <h2 style="padding-bottom: 40px;">Ashish Aggarwal</h2>
-                    <p style="width: 500px;">Life-changing stock market course with practical learning and excellent
-                        career support. Highly recommended for aspiring traders! Super happy!</p>
+                    <h2>Jennifer</h2>
+                    <h4 style="padding-bottom: 10px; font-weight: 500; color: #b1b1b1;">Forex Trader</h2>
+                        <p style="width: 500px;">I can confidently say that enrolling in StockTutor's forex course
+                            has been a game-changer for me. The comprehensive curriculum, expertly crafted by
+                            seasoned professionals, not only demystified the complexities of the forex market but
+                            also equipped me with invaluable skills and strategies. The course seamlessly blends
+                            theory with practical insights, making learning both engaging and effective. </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="presence">
-        <h1>Our Presence</h1>
-        <div class="countries">
-            <div class="india">
-                <img src="india.png">
-                <h2>INDIA</h2>
-            </div>
-            <div class="india">
-                <img src="usa.png">
-                <h2>USA</h2>
-            </div>
-            <div class="india">
-                <img src="uae.png">
-                <h2>UAE</h2>
-            </div>
+</div>
+    <div class="faq-section" >
+        <div class="heading-head">
+            <h1>FAQs</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="92" height="13" viewBox="0 0 92 13" fill="none">
+                <path d="M1 12C58.6445 -4.60085 97.7334 -0.596447 90.0332 12" stroke="#1C5CD9" stroke-width="2" stroke-linecap="round"/>
+              </svg>
         </div>
-    </div>
-    <div class="faq-section">
-        <h1>FAQs</h1>
         <div class="faq-container">
             <div class="faq-item">
                 <div class="faq-question">1. Can beginners take the course</div>
@@ -213,7 +205,7 @@
     </div>
     <div class="footer">
         <div class="logo-para">
-            <img src="logo.png" style="height: 40px;">
+            <a href="index.html"><img src="logo.png" style="height: 40px;"></a>
             <p style="width: 300px; font-size: 14px;color: #b4b4b4;">
                 Step into the world of StockTutor, where we invite you to explore the complexities of the stock market
                 and take charge of your financial journey. Our core belief at StockTutor is that financial knowledge
@@ -241,6 +233,18 @@
             <h2 style="font-size: 20px; font-weight: 600;color: #b4b4b4;">Install App</h2>
             <img src="play.png" width="160px" height="50px">
             <img src="app.png"  width="160px" height="50px">
+        </div>
+    </div>
+    <div class="social-links">
+        <div style="width: 120px;"></div>
+        <p style="color: #b4b4b4;">Powered by Ashish Aggarwal <span style="color: #b4b4b4;">©</span> All Rigth Reserved</p>
+        <div class="socials">
+            <ul>
+                <a href="https://wa.me/8527332806" target="_blank"><li><i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #b4b4b4;"></i></li></a>
+                <a href="https://www.facebook.com/profile.php?id=61552036775314&mibextid=ZbWKwL" target="_blank"><li><i class="fa-brands fa-square-facebook fa-2xl" style="color: #b4b4b4;"></i></li></a>
+                <a href="https://www.instagram.com/stocktutorofficial/" target="_blank"><li><i class="fa-brands fa-square-x-twitter fa-2xl" style="color: #b4b4b4;"></i></li></a>
+                <a href="https://www.instagram.com/stocktutorofficial/" target="_blank"><li><i class="fa-brands fa-square-instagram fa-2xl" style="color: #b4b4b4;"></i></li></a>
+            </ul>
         </div>
     </div>
 </body>

@@ -13,3 +13,21 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+// document.addEventListener('mousemove', (e) => {
+//     const smokeCursor = document.createElement('div');
+//     smokeCursor.className = 'smoke-cursor';
+//     document.body.appendChild(smokeCursor);
+  
+//     const x = e.clientX;
+//     const y = e.clientY;
+  
+//     smokeCursor.style.left = `${x}px`;
+//     smokeCursor.style.right = `${x}px`;
+//     smokeCursor.style.top = `${y}px`;
+//     smokeCursor.style.bottom = `${y}px`;
+  
+//     setTimeout(() => {
+//       smokeCursor.remove();
+//     }, 2000);
+//   });
+  
