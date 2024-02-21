@@ -242,7 +242,6 @@ p{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-top: 0.2px solid #b4b4b4;
     padding: 20px;
     background-color: black;
 }
@@ -382,8 +381,9 @@ p{
     border: none;
     border-radius: 4px;
 }
+
+
+
 /* Shivam CSS from here check again */
-
-
 
 
